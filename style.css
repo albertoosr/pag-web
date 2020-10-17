@@ -1,0 +1,30 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.add-productos:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.add-productos{
+    width: 30%;
+    padding: 5px;
+}
+
+.icon-delete{
+    color: red;
+    font-size: 20px;
+}
+
+.icon-edit{
+    color: seagreen;
+    font-size: 20px;
+}
+
