@@ -7,9 +7,6 @@
     $stmt->bindParam(':product', $producto, PDO::PARAM_STR);
     $stmt->execute();
 
-    // $_POST['producto'] = '';
-    // echo "<div class='alert alert-success' role='alert'> producto registrado</div>";
-
     header('Location:index.php');
 
 ?>
